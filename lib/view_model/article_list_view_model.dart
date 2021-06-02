@@ -5,7 +5,7 @@ import 'package:flutter_retrofit_sample/domain/repository/article_repository_imp
 
 class ArticleListViewModel with ChangeNotifier {
   final ArticleRepository repository = ArticleRepositoryImpl();
-  late final List<Article> articles;
+  late List<Article> articles;
 
   ArticleListViewModel() {
     this.articles = [];
